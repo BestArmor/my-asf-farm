@@ -2,7 +2,7 @@ services:
   - type: web
     name: steam-farm
     env: docker
-    repo: https://github.com
+    repo: https://github.com/JustArchiNET/ArchiSteamFarm
     plan: free
     envVars:
       - key: ASF_ARGS
