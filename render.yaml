@@ -2,7 +2,7 @@ services:
   - type: web
     name: steam-farm
     plan: free
-    image: url:justarchinet/archisteamfarm:latest
+    image:      url:justarchinet/archisteamfarm:latest
     envVars:
       - key: ASF_ARGS
         value: --asf-ui
