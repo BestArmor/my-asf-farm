@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: steam-farm
-    plan: free
-    runtime: image
-    imagePath: justarchinet/archisteamfarm:latest
-    envVars:
-      - key: ASF_ARGS
-        value: --asf-ui
