@@ -1,0 +1,1 @@
+FROM justarchinet/archisteamfarm:latest
