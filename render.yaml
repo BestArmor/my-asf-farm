@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: steam-farm
+    runtime: docker
+    repo: https://github.com
+    plan: free
+    envVars:
+      - key: ASF_ARGS
+        value: --asf-ui
