@@ -1,9 +1,8 @@
 services:
   - type: web
     name: steam-farm
-    env: docker
-    repo: https://github.com/JustArchiNET/ArchiSteamFarm
     plan: free
+    image: justarchinet/archisteamfarm:latest
     envVars:
       - key: ASF_ARGS
         value: --asf-ui
